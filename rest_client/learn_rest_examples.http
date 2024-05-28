@@ -1,5 +1,5 @@
 ### Uncomment below if you want to use online JSON server. Note that, any updates will not be reflected permanently
-# @baseUrl = https://my-json-server.typicode.com/jumail-utm/http_json
+@baseUrl = https://my-json-server.typicode.com/SawadaSyahmi/http_json_route
 
 ### Change the IP address below to your PC's IP address. Remain the port number 3000 unchanged
 @baseUrl = http://192.168.0.3:3000
