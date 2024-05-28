@@ -22,7 +22,7 @@ class DataService {
 
   // Helper method to HTTP PATCH Request
   Future patch(String endpoint, {dynamic data}) async {
-    final response = await http.patch('$baseUrl/$endpoint' as Uri,
+    final response = await http.patch(Uri.parse('$baseUrl/$endpoint'),
         headers: {'Content-Type': 'application/json'}, body: jsonEncode(data));
 
     if (response.statusCode == 200) {
