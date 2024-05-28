@@ -11,7 +11,7 @@ class DataService {
 
   // Helper method to HTTP GET Request
   Future get(String endpoint) async {
-    final response = await http.get('$baseUrl/$endpoint' as Uri,
+    final response = await http.get(Uri.parse('$baseUrl/$endpoint'),
         headers: {'Content-Type': 'application/json'});
 
     if (response.statusCode == 200) {
