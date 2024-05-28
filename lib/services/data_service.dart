@@ -7,7 +7,7 @@ import '../models/assessment.dart';
 class DataService {
   // static const String baseUrl = 'http://192.168.0.3:3000';  // to use local JSON Server. Replace the IP address
   static const String baseUrl =
-      'https://my-json-server.typicode.com/jumail-utm/http_json';
+      'https://my-json-server.typicode.com/SawadaSyahmi/http_json_route';
 
   // Helper method to HTTP GET Request
   Future get(String endpoint) async {
