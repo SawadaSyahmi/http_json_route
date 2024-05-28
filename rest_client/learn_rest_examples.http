@@ -1,0 +1,49 @@
+### Uncomment below if you want to use online JSON server. Note that, any updates will not be reflected permanently
+# @baseUrl = https://my-json-server.typicode.com/jumail-utm/http_json
+
+### Change the IP address below to your PC's IP address. Remain the port number 3000 unchanged
+@baseUrl = http://192.168.0.3:3000
+
+### REST Example 1:
+### Get the list of all users
+GET {{baseUrl}}/users HTTP/1.1
+Content-Type: application/json
+
+### REST Example 2
+### Get the user whose id 1
+GET {{baseUrl}}/users/1 HTTP/1.1
+Content-Type: application/json
+
+### REST Example 3
+### Create a new user
+POST {{baseUrl}}/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "shortName" : "Noname",
+    "fullName" : "Please update your name"
+}
+
+### REST Example 4
+### Update/Replace the info of the user whose id 5
+PUT {{baseUrl}}/users/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "shortName" : "John",
+    "fullName" : "John Doe"
+}
+
+### REST Example 5
+### Update the fullName attribute of the user whose id 5
+PATCH {{baseUrl}}/users/5 HTTP/1.1
+Content-Type: application/json
+
+{
+    "fullName" : "John Maxwell"
+}
+
+### REST Example 6
+### Delete the user whose id 5
+DELETE {{baseUrl}}/users/5 HTTP/1.1
+Content-Type: application/json

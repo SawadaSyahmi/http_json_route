@@ -1,0 +1,91 @@
+{
+    "evaluator": {
+        "shortName": "Abdullah",
+        "fullName": "Abdullah Tajuddin"
+    },
+    "assessments": [{
+            "member": {
+                "shortName": "Abdullah",
+                "fullName": "Abdullah Tajuddin"
+            },
+            "points": [4, 2, 3, 2, 4]
+        },
+
+        {
+            "member": {
+                "shortName": "Aisyah",
+                "fullName": "Siti Nur Aisyah Binti Ahmad Kamal"
+            },
+            "points": [3, 3, 3, 3, 3]
+        },
+
+        {
+            "member": {
+                "shortName": "Jailani",
+                "fullName": "Ahmad Jailani Bin Saad"
+            },
+            "points": [2, 1, 3, 2, 1]
+        },
+
+        {
+            "member": {
+                "shortName": "Amalina",
+                "fullName": "Amalina Dasuki"
+            },
+            "points": [4, 4, 4, 4, 4]
+        }
+    ],
+
+    "scales": [{
+            "title": "Excellent",
+            "value": 4
+        },
+
+        {
+            "title": "Good",
+            "value": 3
+        },
+
+        {
+            "title": "Fair",
+            "value": 2
+        },
+
+        {
+            "title": "Poor",
+            "value": 1
+        },
+        {
+            "title": "Not at all",
+            "value": 0
+        }
+    ],
+
+
+    "criteria": [{
+            "title": "Interaction",
+            "description": "Degree of interaction with other members"
+        },
+
+        {
+            "title": "Commitment",
+            "description": "Degree of participation to the project execution"
+        },
+
+        {
+            "title": "Effort",
+            "description": "The amount of effort and work contributed to the project outcome"
+        },
+
+        {
+            "title": "Adaptability",
+            "description": "Ease of adapting to the group"
+        },
+
+        {
+            "title": "Personality",
+            "description": "Degree of compromisation between group members"
+        }
+
+    ]
+}

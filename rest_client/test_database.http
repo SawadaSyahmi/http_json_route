@@ -1,0 +1,25 @@
+### Uncomment below if you want to use online JSON server. Note that, any updates will not be reflected permanently
+### @baseUrl = https://my-json-server.typicode.com/jumail-utm/http_json
+
+### Change the IP address below to your PC's IP address. Remain the port number 3000 unchanged
+@baseUrl = http://192.168.0.3:3000
+
+### REST Example 1
+### Get the data for the activity whose id 1
+GET {{baseUrl}}/activities/1 HTTP/1.1
+Content-Type: application/json
+
+### REST Example 2
+### Get the list of assessments of activity 1
+GET {{baseUrl}}/assessments?activityId=1 HTTP/1.1
+Content-Type: application/json
+
+### REST Example 3
+### Update the points attribute of an assessement from activity 1
+PATCH {{baseUrl}}/assessments/4 HTTP/1.1
+Content-Type: application/json
+
+{
+    "points": [1,1,1,1,1]
+}
+
